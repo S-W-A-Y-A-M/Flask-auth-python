@@ -1,0 +1,107 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f9ff;
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  background: #e3f0ff;
+  padding: 12px;
+}
+
+.nav-link, .nav-btn {
+  padding: 8px 16px;
+  border: none;
+  background: white;
+  color: #2563eb;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.nav-btn.active {
+  background: #2563eb;
+  color: white;
+}
+
+.nav-btn.logout {
+  background: #f87171;
+  color: white;
+}
+
+.nav-btn:hover, .nav-link:hover {
+  background: #2563eb;
+  color: white;
+}
+
+.page-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.auth-container {
+  background: white;
+  padding: 25px 30px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 350px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+.auth-container h1 {
+  margin-bottom: 20px;
+  color: #2563eb;
+}
+
+.auth-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.auth-container input {
+  padding: 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  outline: none;
+}
+
+.auth-container input:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 5px rgba(37, 99, 235, 0.3);
+}
+
+.auth-container button {
+  padding: 10px;
+  background: #2563eb;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.auth-container button:hover {
+  background: #1d4ed8;
+}
+
+.google-btn {
+  background: #ea4335;
+  margin-top: 10px;
+}
+
+.google-btn:hover {
+  background: #c53727;
+}
+
+.message {
+  margin-top: 15px;
+  font-size: 14px;
+}
